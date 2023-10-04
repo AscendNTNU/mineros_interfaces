@@ -15,6 +15,7 @@ set(msg_files
   "msg/Item.msg"
   "msg/BlockPose.msg"
   "msg/Furnace.msg"
+  "msg/Recipe.msg"
 )
 
 set(srv_files
@@ -27,6 +28,7 @@ set(srv_files
   "srv/FurnaceInfo.srv"
   "srv/FurnaceUpdate.srv"
   "srv/BotPos.srv"
+  "srv/Recipe.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

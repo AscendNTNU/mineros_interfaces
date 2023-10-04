@@ -1,4 +1,3 @@
-geometry_msgs/Pose block_pose
-mineros_inter/BlockPose block
+ineros_inter/BlockPose block
 ---
 bool success
