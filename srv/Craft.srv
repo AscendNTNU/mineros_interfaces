@@ -1,5 +1,6 @@
 mineros_inter/Item item
 bool crafting_table
+bool danger_mode
 geometry_msgs/Pose crafting_table_location
 ---
 bool success
