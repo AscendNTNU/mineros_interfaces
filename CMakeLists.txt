@@ -29,6 +29,7 @@ set(srv_files
   "srv/FurnaceUpdate.srv"
   "srv/BotPos.srv"
   "srv/Recipe.srv"
+  "srv/MoveTo.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
